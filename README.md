@@ -3,17 +3,26 @@ PubSum A google Pub/Sub aggregator
 Listening to several topics and redirect the data to one consolidating channel or topics.
 
 Features:
+-------------
 Take a topic name pattern.
+
 Create a listener for each topic.
+
 Clean up.
+
 Refresh in intervals
 
+
 Roadmap:
+---------
 Adding and Removing topics explicetly from the library caller
+
 Redirect to a topic in Google Pub/Sub
+
 Redirect to a topic in Amazon SqS
 
 Usage:
+----------
 ```golang
 func TestExample(t *testing.T) {
 	project := `MyProject`
